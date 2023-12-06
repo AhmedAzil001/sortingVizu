@@ -1,0 +1,36 @@
+#container{
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    width: 500px;
+    max-width: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bar{
+    width: 20px;
+    background-color: black;
+    margin: 2px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    padding: 15px;
+    font-size: 1rem;
+    margin: 50px;
+    width: 50%px;
+    border: none;
+    outline: none;
+    background-color: royalblue;
+}
